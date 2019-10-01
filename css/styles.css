@@ -1,0 +1,233 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to top, #777d4f, #14473C, #143228);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+
+  .intermission {
+      grid-area: intermission;
+      height: 500px;
+      padding-top: 150px;
+      padding-bottom: 250px;
+      color: #f1f1f1;
+
+  }
+  
+  .skybox {
+    padding-top: 100px;
+  }
+ 
+ #content {
+    position: relative;
+ }
+
+   /*=======================
+    parallax     
+=======================*/
+
+ #parallax-container {
+  display: block;
+  height: 650px; 
+}
+
+#parallax-container div {
+   
+  top: 0;
+  transform: translateY(0px);
+  height: 480px; 
+} 
+
+ .layer-1 {
+   
+  background: url(../images/moon.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-left: 650px;
+
+}
+
+  .layer-2 {
+   
+    background: url(../images/scream-2.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-left: 420px;
+    
+  }
+
+
+  .layer-3 {
+   
+    background: url(../images/layer-2.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+  }
+
+  .layer-4 {
+   
+    background: url(../images/layer-3.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    
+  }
+
+    /*=======================
+    parallax end     
+=======================*/
+
+  .contact-section {
+
+    height: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #f1f1f1;
+    background: linear-gradient(to top, #060F13, #021011);
+    text-align: center;
+
+}
+
+
+  .profile-image {
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+  margin: 0 auto;
+  }
+
+  .intro {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10%;
+  }
+ 
+
+
+  /*=======================
+    opacity and fade effect      
+=======================*/
+
+.hidden {
+    opacity: 0;
+    transition: opacity 1s 1s ease-in;
+
+}
+
+.unhide {
+    opacity: 1;
+}
+
+.hideme {
+    opacity: 0;
+}
+
+
+.faded {
+  opacity: 0.5;
+}
+
+  /*=======================
+    Flexbox      
+=======================*/
+
+.flex {
+  display: -ms-flexbox;
+  display: flex; 
+  max-width: 1200px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+  /*=======================
+    Cards      
+=======================*/
+
+
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  border-radius: 6px;
+  transition: all .5s;
+  color: white;
+  line-height: 1.5;
+}
+
+
+  /*=======================
+    Social media      
+=======================*/
+
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+  padding-top: 20px;
+}
+
+a.social:hover {
+  opacity: 1;
+}
+
+a.twitter {
+  background-image: url(../images/twitter.svg);
+}
+
+a.linkedin {
+  background-image: url(../images/linkedin.svg);
+}
+a.github {
+  background-image: url(../images/github.svg);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.contact {
+  padding-bottom: 30px;
+}
+
+  /*=======================
+    Arrow     
+=======================*/
+
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 9px;
+  
+}
+
+
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.down-arrow p {
+  display: inline-block;
+}
+

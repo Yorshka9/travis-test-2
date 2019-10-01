@@ -1,0 +1,201 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  *::before, *::after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+  
+  html {
+    font-size: 100%;
+  }
+  
+  .scene-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    width: 99vw;
+    min-height: 100vh;
+  }
+  
+  .scene {
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .cloud {
+    -webkit-animation: animateclouds 200s infinite linear;
+            animation: animateclouds 200s infinite linear;
+    background-color: #f0f8ff;
+    border-radius: 3rem;
+    border-left: 3px solid #e8f0f7;
+    border-bottom: 3px solid #dde9f4;
+    box-shadow: -1px 3px 1rem 0px rgba(0, 0, 0, 0.05);
+    left: -16rem;
+    width: 12rem;
+    height: 4rem;
+    position: absolute;
+  }
+  .cloud::before, .cloud::after {
+    background: #f0f8ff;
+    border-radius: 50%;
+    border-left: 3px solid #e8f0f7;
+  }
+  .cloud::before {
+    width: 100px;
+    height: 100px;
+    top: -45px;
+    left: 70px;
+    z-index: 2;
+  }
+  .cloud::after {
+    width: 60px;
+    height: 60px;
+    top: -20px;
+    left: 30px;
+  }
+  .cloud__1 {
+    -webkit-animation-delay: -109s;
+            animation-delay: -109s;
+    top: 560px;
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+  .cloud__2 {
+    -webkit-animation-delay: -193s;
+            animation-delay: -193s;
+    top: 188px;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+  }
+  .cloud__3 {
+    -webkit-animation-delay: -102s;
+            animation-delay: -102s;
+    top: 750px;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  .cloud__4 {
+    -webkit-animation-delay: -73s;
+            animation-delay: -73s;
+    top: 360px;
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  .cloud__5 {
+    -webkit-animation-delay: -182s;
+            animation-delay: -182s;
+    top: 412px;
+    -webkit-transform: scale(1.65);
+            transform: scale(1.65);
+  }
+  .cloud__6 {
+    -webkit-animation-delay: -143s;
+            animation-delay: -143s;
+    top: 252px;
+    -webkit-transform: scale(2.75);
+            transform: scale(2.75);
+  }
+  .cloud__7 {
+    -webkit-animation-delay: -180s;
+            animation-delay: -180s;
+    top: 250px;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+  }
+  .cloud__8 {
+    -webkit-animation-delay: -55s;
+            animation-delay: -55s;
+    top: 539px;
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  .cloud__9 {
+    -webkit-animation-delay: -41s;
+            animation-delay: -41s;
+    top: 108px;
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+  .cloud__10 {
+    -webkit-animation-delay: -123s;
+            animation-delay: -123s;
+    top: 290px;
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+  .cloud__11 {
+    -webkit-animation-delay: -89s;
+            animation-delay: -89s;
+    top: 76px;
+    -webkit-transform: scale(1.55);
+            transform: scale(1.55);
+  }
+  .cloud__12 {
+    -webkit-animation-delay: -108s;
+            animation-delay: -108s;
+    top: 363px;
+    -webkit-transform: scale(1.75);
+            transform: scale(1.75);
+  }
+  .cloud__13 {
+    -webkit-animation-delay: -96s;
+            animation-delay: -96s;
+    top: 164px;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  .cloud__14 {
+    -webkit-animation-delay: -185s;
+            animation-delay: -185s;
+    top: 337px;
+    -webkit-transform: scale(1.55);
+            transform: scale(1.55);
+  }
+  .cloud__15 {
+    -webkit-animation-delay: -195s;
+            animation-delay: -195s;
+    top: 416px;
+    -webkit-transform: scale(1.55);
+            transform: scale(1.55);
+  }
+  
+  @-webkit-keyframes animateclouds {
+    100% {
+      -webkit-transform: translateX(150rem);
+              transform: translateX(150rem);
+    }
+  }
+  
+  @keyframes animateclouds {
+    100% {
+      -webkit-transform: translateX(150rem);
+              transform: translateX(150rem);
+    }
+  }
+  
+
+
+
+    /*=======================
+     stars     
+=======================*/
+
+
+
+.stars {
+       background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+
+      }
+
+
+      
